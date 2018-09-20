@@ -31,7 +31,7 @@ section{
 /*header*/
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(img/31521_ground_beef_gyros.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(img/pizza1.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -45,6 +45,7 @@ header{
     width: 1140px;
     left: 10%;
     top: 45%;
+    font-size: 100%;
 }
 
 
@@ -61,12 +62,14 @@ header{
     padding: 10px 150px;
     background-color: #005ca1;
     border-radius: 200px;  
+    
 }
 
 
 .brn-hero:hover{
-    background-color: #ba6215;
+    background-color: #05487b;
     border: none;
+    transition: background-color 0.3s;
 }
 
 
@@ -97,18 +100,22 @@ header{
 }
 
 .main-nav ul li a{
-    color: #bfbfbf;
+    color: #fff;
     text-decoration: none;
     font-size: 100%;
     padding-bottom: 10px;
     border-bottom: 1px solid transparent ;
+    opacity: 0.7;
+
     
 }
 
 
 .main-nav ul li a:hover{
-    border-bottom: 1px solid #e67e22;
-    transition: border-bottom 0.3s;
+    border-bottom: 1.5px solid #005ca1;
+    opacity: 1;
+    transition: opacity, border-bottom 0.2s;
+    
 }
 
 
