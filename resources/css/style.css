@@ -28,21 +28,110 @@ section{
 }
 
 
-.sec{
-    height: 200px;
-    width: 100%;
-    background-color: aqua;
+/*header*/
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(img/31521_ground_beef_gyros.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    
+    
 }
 
 .hero-text{
-    font-size: 100%;
-    font-weight: 400;
+    position: absolute;
+    width: 1140px;
+    left: 10%;
+    top: 45%;
 }
-
-
-
 
 
 
 /*botton*/
+
+.brn-hero{
+    position: relative;
+    top: 100px;
+    left: 40%;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #0b4d80;
+    padding: 10px 150px;
+    background-color: #005ca1;
+    border-radius: 200px;  
+}
+
+
+.brn-hero:hover{
+    background-color: #ba6215;
+    border: none;
+}
+
+
+
+
+/*MAIN NAV*/
+
+
+.main-nav{
+    float: right;
+    margin-top: 15;
+    
+
+}
+
+.main-nav ul{
+/*    list-style: none;*/
+   
+}
+
+.main-nav ul li{
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    
+    
+        
+}
+
+.main-nav ul li a{
+    color: #bfbfbf;
+    text-decoration: none;
+    font-size: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid transparent ;
+    
+}
+
+
+.main-nav ul li a:hover{
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.3s;
+}
+
+
+/*logo whit*/
+
+.logo{
+    width: 150px;
+    height: 120px;
+    float: left;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
